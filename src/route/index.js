@@ -1,8 +1,10 @@
-import Home from "../Page/homePage/Home"
+import Home from '../Page/homePage/Home';
+import Login from '../Page/login/Login';
 const publicRoute = [
-    {path:'/', page: Home}
-]
+	{ path: '/', page: Home },
+	{ path: '/login', page: Login }
+];
 
-const privateRoute = []
+const privateRoute = [];
 
-export {publicRoute, privateRoute }
+export { publicRoute, privateRoute };
